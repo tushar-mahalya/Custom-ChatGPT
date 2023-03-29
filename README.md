@@ -4,13 +4,15 @@
 
 Using GPT-3.5-Turbo model and fine-tuned/trained it over Reddit data to create a custom ChatGPT with the wisdom of Reddit Community and power of OpenAI's GPT model.
 
-### <u>Hardware Specification
+### <u>Hardware Specification</u>
+For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
 | Component | Specification |
 | --- | --- |
-| CPU | Intel(R) Xeon(R) Platinum 8259CL |
+| CPU | Intel® Xeon® Platinum 8259CL |
 | Architecture | x86_64 |
-| RAM | 15GB |
-| GPU | Tesla T4 |
+| RAM | 16GB |
+| Storage | 15GB (AWS S3 Bucket) |
+| GPU | NVIDIA® Tesla T4 |
 | CUDA Version | 11.4 |
 | V-RAM | 15GB |
 
