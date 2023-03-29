@@ -4,6 +4,7 @@
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain.chat_models import ChatOpenAI
 
+
 def construct_index(directory_path):
     # set maximum input size
     max_input_size = 4096
@@ -21,18 +22,18 @@ def construct_index(directory_path):
     prompt_helper = PromptHelper(max_input_size,
                                  num_outputs,
                                  max_chunk_overlap,
-                                 chunk_size_limit = chunk_size_limit)
- 
+                                 chunk_size_limit=chunk_size_limit)
+
     documents = SimpleDirectoryReader(directory_path).load_data()
-    
+
     index = GPTSimpleVectorIndex(
         documents,
-        llm_predictor = llm_predictor,
-        prompt_helper = prompt_helper,
-        disallowed_special = ()
+        llm_predictor=llm_predictor,
+        prompt_helper=prompt_helper,
+        disallowed_special=()
     )
 
     index.save_to_disk('index.json')
-    print('\033[32m' + 'Text Embeddings created Succesfully ! \nStored in \'train_data/index.json\'' + '\033[0m')
+    print('\033[32m' + 'Text Embeddings created Successfully ! \nStored in \'train_data/index.json\'' + '\033[0m')
 
     return index
