@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+praw
+configparser
+llama-index
+langchain
+flask
+gunicorn
+python-multipart
+transformers
+nltk
