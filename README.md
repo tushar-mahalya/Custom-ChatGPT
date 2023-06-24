@@ -4,9 +4,7 @@
 
 By combining the wealth of knowledge shared within the Reddit data science community, the power of OpenAI's GPT-3.5-Turbo model, the efficiency of the Langchain framework, and the retrieval capabilities of the FAISS library, we create a bespoke ChatGPT that possesses the collective wisdom and expertise of the Reddit community. Our custom ChatGPT is poised to engage in intelligent, informative, and contextually relevant conversations on topics spanning data science, machine learning, artificial intelligence, and more. This project serves as a testament to the extraordinary potential of combining state-of-the-art language models with community-generated knowledge to push the boundaries of conversational AI.
 #### Demo Video -
-<div>
-    <img src = "resources/custom_gpt_demo.gif"/>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2thdKGd-1vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
