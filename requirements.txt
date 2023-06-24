@@ -11,3 +11,7 @@ gunicorn
 python-multipart
 transformers
 nltk
+spacy
+streamlit
+streamlit-chat
+streamlit-extras
