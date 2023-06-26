@@ -1,4 +1,4 @@
-# __Custom ChatGPT__
+# <p align = "center">__Custom ChatGPT__
 [![Repo Size](https://img.shields.io/github/repo-size/tushar-mahalya/Custom-ChatGPT?style=flat-square)](https://github.com/tushar-mahalya/Custom-ChatGPT)  ![License](https://img.shields.io/badge/license-MIT-red.svg)  ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
 
 
@@ -15,20 +15,31 @@ To run the ChatBot locally, please follow these detailed steps:
 1. Clone the repository to your local machine by executing the following command in your terminal:
    
        git clone https://github.com/tushar-mahalya/Custom-ChatGPT.git
-2. Install the necessary dependencies by running the following command in your terminal:
-   This command will automatically install all the required dependencies for running the ChatBot.
-3. Configure your personal OpenAI API secret key by running the following command in your terminal:
+   
+3. Install the necessary dependencies by running the following command in your terminal:
+   
+       pip install -r requirements.txt
+   
+4. Configure your personal OpenAI API secret key by running the following command in your terminal:
+
+       echo -e '[OpenAI]\nsecret_key = YOUR_PERSONAL_API_SECRET_KEY' > credentials.ini
    Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials.
-4. Start the application by running the following command in your terminal:
+   
+5. Start the application by running the following command in your terminal:
+
+       streamlit run app.py
    This command will launch the ChatBot application and provide you with a local web address.
-5. Open your web browser and enter the following URL in the address bar:
+   
+6. Open your web browser and enter the following URL in the address bar:
+   
+       http://localhost:8501/
    This will open the ChatBot interface in your web browser, allowing you to interact with the ChatBot locally.
 
 Please note that running the ChatBot locally requires a suitable environment with Python and the necessary dependencies. Ensure that you meet the requirements and follow the instructions carefully to set up and run the ChatBot on your machine. Enjoy your conversation with the ChatBot!
 
 
 
-### <u>Hardware Specification</u>
+## <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
 | Component | Specification |
 | --- | --- |
@@ -40,3 +51,17 @@ For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagem
 | CUDA Version | 11.4 |
 | V-RAM | 15GB |
 
+## Contributing
+
+If you would like to contribute to the project, you can follow the steps below:
+
+1. Fork the repository to your GitHub account.
+2. Clone the repository to your local machine.
+3. Create a new branch for your changes.
+4. Make your changes to the codebase.
+5. Push your changes to your forked repository.
+6. Create a pull request from your forked repository to the original repository.
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify and distribute the code as per the license terms
