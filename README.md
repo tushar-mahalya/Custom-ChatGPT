@@ -6,6 +6,28 @@ By combining the wealth of knowledge shared within the Reddit data science commu
 #### Demo Video -
 <img src = "resources/CustomGPT_demo.gif" />
 
+## Getting started with the ChatBot
+
+The ChatBot is not currently deployed due to the cost associated with accessing the GPT model through my personal OpenAI API key. However, you can still run the ChatBot on your local machine by following the instructions below. Make sure you have enough credits available for using the ChatBot.
+
+To run the ChatBot locally, please follow these detailed steps:
+
+1. Clone the repository to your local machine by executing the following command in your terminal:
+   
+       git clone https://github.com/tushar-mahalya/Custom-ChatGPT.git
+2. Install the necessary dependencies by running the following command in your terminal:
+   This command will automatically install all the required dependencies for running the ChatBot.
+3. Configure your personal OpenAI API secret key by running the following command in your terminal:
+   Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials.
+4. Start the application by running the following command in your terminal:
+   This command will launch the ChatBot application and provide you with a local web address.
+5. Open your web browser and enter the following URL in the address bar:
+   This will open the ChatBot interface in your web browser, allowing you to interact with the ChatBot locally.
+
+Please note that running the ChatBot locally requires a suitable environment with Python and the necessary dependencies. Ensure that you meet the requirements and follow the instructions carefully to set up and run the ChatBot on your machine. Enjoy your conversation with the ChatBot!
+
+
+
 ### <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
 | Component | Specification |
