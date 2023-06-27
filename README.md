@@ -8,7 +8,7 @@ By combining the wealth of knowledge shared within the Reddit data science commu
 
 ## Getting started with the ChatBot
 
-The ChatBot is not currently deployed due to the cost associated with accessing the GPT model through my personal OpenAI API key. However, you can still run the ChatBot on your local machine by following the instructions below. Make sure you have enough credits available for using the ChatBot.
+The ChatBot is not currently deployed due to the cost associated with accessing the GPT model through my personal OpenAI API key. However, you can still run the ChatBot on your local machine by following the instructions below. Make sure you have enough credits In your OpenAI account for using the ChatBot.
 
 To run the ChatBot locally, please follow these detailed steps:
 
@@ -29,7 +29,7 @@ To run the ChatBot locally, please follow these detailed steps:
 5. Configure your personal OpenAI API secret key by running the following command in your terminal:
 
        echo -e '[OpenAI]\nsecret_key = YOUR_PERSONAL_API_SECRET_KEY' > credentials.ini
-   Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials. Access yourAPI key from [here](https://openai.com/blog/openai-api)
+   Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials. Access your API key from [here](https://openai.com/blog/openai-api)
    
 6. Start the application by running the following command in your terminal:
 
@@ -43,8 +43,7 @@ To run the ChatBot locally, please follow these detailed steps:
 
 Please note that running the ChatBot locally requires a suitable environment with Python and the necessary dependencies. Ensure that you meet the requirements and follow the instructions carefully to set up and run the ChatBot on your machine. Enjoy your conversation with the ChatBot!
 
-## Introduction
-
+## Technical Methodologies
 
 ## <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
