@@ -29,7 +29,7 @@ To run the ChatBot locally, please follow these detailed steps:
 5. Configure your personal OpenAI API secret key by running the following command in your terminal:
 
        echo -e '[OpenAI]\nsecret_key = YOUR_PERSONAL_API_SECRET_KEY' > credentials.ini
-   Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials.
+   Replace YOUR_PERSONAL_API_SECRET_KEY with your actual OpenAI API secret key. This step ensures that the ChatBot can access the OpenAI GPT model using your credentials. Access yourAPI key from [here](https://openai.com/blog/openai-api)
    
 6. Start the application by running the following command in your terminal:
 
