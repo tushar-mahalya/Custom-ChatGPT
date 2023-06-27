@@ -18,9 +18,14 @@ To run the ChatBot locally, please follow these detailed steps:
        cd Custom-ChatGPT
    
 2. Create and activate a virtual environment (optional but recommended):
-
-       python3 -m venv venv
-       source venv/bin/activate
+   - Using 'venv':
+     
+         python3 -m venv venv
+         source venv/bin/activate
+   - Using 'conda':
+     
+         conda create --name chatgpt-env
+         conda activate chatgpt-env
   
 4. Install the necessary dependencies by running the following command in your terminal:
    
