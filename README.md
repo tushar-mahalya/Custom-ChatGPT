@@ -50,7 +50,7 @@ Please note that running the ChatBot locally requires a suitable environment wit
 
 ## Technical Methodologies
 
-<img src = 'resources/langchain.png'/>
+<img src = "resources/langchain.png"/>
 1. <b>LangChain Framework</b>: The LangChain framework is a language processing framework that provides a set of tools and libraries for building and deploying natural language processing (NLP) applications. It offers a comprehensive range of functionalities such as text preprocessing, tokenization, language modeling, semantic analysis, and text generation. The LangChain framework leverages state-of-the-art techniques from the field of NLP, including deep learning models like transformers, to enable efficient and accurate language processing tasks.
 
 2. <b>FAISS Framework</b>: FAISS (Facebook AI Similarity Search) is a library developed by Facebook AI Research that provides efficient and scalable solutions for similarity search and clustering tasks. FAISS is primarily focused on solving large-scale search problems in high-dimensional spaces, making it well-suited for applications involving computer vision, natural language processing, and recommendation systems. The framework offers various indexing structures and algorithms, such as product quantization and IVF (Inverted File System), to accelerate nearest neighbor search operations.
