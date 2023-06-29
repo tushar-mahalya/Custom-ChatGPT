@@ -50,7 +50,21 @@ Please note that running the ChatBot locally requires a suitable environment wit
 
 ## Technical Methodologies
 
-## Potential Use 
+## Potential Use Cases:
+
+1. Customer Support: Custom ChatGPT can be deployed in customer support systems to provide instant assistance and answer frequently asked questions. By understanding customer queries and providing relevant responses, it can enhance the efficiency and effectiveness of customer support operations, reducing response time and improving customer satisfaction.
+
+2. Confidential Information Handling: The Custom ChatGPT model can be trained on confidential company policies and internal knowledge without compromising privacy.It can provide answers and assistance based on the confidential information, ensuring that sensitive company data remains protected. This feature enables employees to access relevant information while maintaining the confidentiality and integrity of the company's proprietary knowledge.
+
+3. Personalized Virtual Assistants: The customized ChatGPT model can serve as a virtual assistant tailored to individual users' preferences and requirements. It can provide personalized recommendations, answer queries, and assist with various tasks such as scheduling, reminders, and information retrieval, creating a more engaging and interactive user experience.
+
+4. Unpopular or Niche Language Support: Custom ChatGPT can be tailored to provide answers and support in uncommon or niche languages. By training the model on specific language data, it ensures accurate and relevant information for underrepresented language communities, promoting inclusivity and accessibility.
+
+5. Language Learning and Tutors: Custom ChatGPT can be utilized in language learning applications as an intelligent language tutor. It can engage in conversations with learners, provide feedback on their language skills, and offer language learning resources and exercises tailored to individual proficiency levels and learning objectives.
+
+6. Decision Support Systems: The customized ChatGPT model can be integrated into decision support systems, assisting users in complex decision-making processes. By analyzing user inputs and providing relevant information and insights, it can help users make informed decisions across domains such as finance, healthcare, and business strategy.
+
+
 
 ## <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
