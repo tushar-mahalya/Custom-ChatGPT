@@ -50,6 +50,8 @@ Please note that running the ChatBot locally requires a suitable environment wit
 
 ## Technical Methodologies
 
+## Potential Use 
+
 ## <u>Hardware Specification</u>
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
 | Component | Specification |
