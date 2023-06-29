@@ -50,19 +50,28 @@ Please note that running the ChatBot locally requires a suitable environment wit
 
 ## Technical Methodologies
 
+<img src = 'resources/langchain.png'/>
+1. <b>LangChain Framework</b>: The LangChain framework is a language processing framework that provides a set of tools and libraries for building and deploying natural language processing (NLP) applications. It offers a comprehensive range of functionalities such as text preprocessing, tokenization, language modeling, semantic analysis, and text generation. The LangChain framework leverages state-of-the-art techniques from the field of NLP, including deep learning models like transformers, to enable efficient and accurate language processing tasks.
+
+2. <b>FAISS Framework</b>: FAISS (Facebook AI Similarity Search) is a library developed by Facebook AI Research that provides efficient and scalable solutions for similarity search and clustering tasks. FAISS is primarily focused on solving large-scale search problems in high-dimensional spaces, making it well-suited for applications involving computer vision, natural language processing, and recommendation systems. The framework offers various indexing structures and algorithms, such as product quantization and IVF (Inverted File System), to accelerate nearest neighbor search operations.
+
+3. <b>GPT 3.5 Turbo Model</b>: GPT 3.5 Turbo is an advanced language model developed by OpenAI. It is based on the GPT (Generative Pre-trained Transformer) architecture and represents a significant advancement in natural language processing. GPT 3.5 Turbo exhibits impressive language generation capabilities and can be fine-tuned for specific tasks. The model has been trained on a massive corpus of text data and has a deep understanding of language patterns, enabling it to generate coherent and contextually relevant responses.
+
+## Working :
+
 ## Potential Use Cases:
 
-1. Customer Support: Custom ChatGPT can be deployed in customer support systems to provide instant assistance and answer frequently asked questions. By understanding customer queries and providing relevant responses, it can enhance the efficiency and effectiveness of customer support operations, reducing response time and improving customer satisfaction.
+1. <b>Customer Support</b>: Custom ChatGPT can be deployed in customer support systems to provide instant assistance and answer frequently asked questions. By understanding customer queries and providing relevant responses, it can enhance the efficiency and effectiveness of customer support operations, reducing response time and improving customer satisfaction.
 
-2. Confidential Information Handling: The Custom ChatGPT model can be trained on confidential company policies and internal knowledge without compromising privacy.It can provide answers and assistance based on the confidential information, ensuring that sensitive company data remains protected. This feature enables employees to access relevant information while maintaining the confidentiality and integrity of the company's proprietary knowledge.
+2. <b>Confidential Information Handling</b>: The Custom ChatGPT model can be trained on confidential company policies and internal knowledge without compromising privacy.It can provide answers and assistance based on the confidential information, ensuring that sensitive company data remains protected. This feature enables employees to access relevant information while maintaining the confidentiality and integrity of the company's proprietary knowledge.
 
-3. Personalized Virtual Assistants: The customized ChatGPT model can serve as a virtual assistant tailored to individual users' preferences and requirements. It can provide personalized recommendations, answer queries, and assist with various tasks such as scheduling, reminders, and information retrieval, creating a more engaging and interactive user experience.
+3. <b>Personalized Virtual Assistants</b>: The Custom ChatGPT model can serve as a virtual assistant tailored to individual users' preferences and requirements. It can provide personalized recommendations, answer queries, and assist with various tasks such as scheduling, reminders, and information retrieval, creating a more engaging and interactive user experience.
 
-4. Unpopular or Niche Language Support: Custom ChatGPT can be tailored to provide answers and support in uncommon or niche languages. By training the model on specific language data, it ensures accurate and relevant information for underrepresented language communities, promoting inclusivity and accessibility.
+4. <b>Unpopular or Niche Language Support</b>: Custom ChatGPT can be tailored to provide answers and support in uncommon or niche languages. By training the model on specific language data, it ensures accurate and relevant information for underrepresented language communities, promoting inclusivity and accessibility.
 
-5. Language Learning and Tutors: Custom ChatGPT can be utilized in language learning applications as an intelligent language tutor. It can engage in conversations with learners, provide feedback on their language skills, and offer language learning resources and exercises tailored to individual proficiency levels and learning objectives.
+5. <b>Language Learning and Tutors</b>: Custom ChatGPT can be utilized in language learning applications as an intelligent language tutor. It can engage in conversations with learners, provide feedback on their language skills, and offer language learning resources and exercises tailored to individual proficiency levels and learning objectives.
 
-6. Decision Support Systems: The customized ChatGPT model can be integrated into decision support systems, assisting users in complex decision-making processes. By analyzing user inputs and providing relevant information and insights, it can help users make informed decisions across domains such as finance, healthcare, and business strategy.
+6. <b>Decision Support Systems</b>: The Custom ChatGPT model can be integrated into decision support systems, assisting users in complex decision-making processes. By analyzing user inputs and providing relevant information and insights, it can help users make informed decisions across domains such as finance, healthcare, and business strategy.
 
 
 
