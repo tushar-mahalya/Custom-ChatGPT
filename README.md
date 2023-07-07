@@ -48,17 +48,25 @@ To run the ChatBot locally, please follow these detailed steps:
 
 Please note that running the ChatBot locally requires a suitable environment with Python and the necessary dependencies. Ensure that you meet the requirements and follow the instructions carefully to set up and run the ChatBot on your machine. Enjoy your conversation with the ChatBot!
 
+## Pipelines & Workflows:
+
+<p align = "center"><img src = "resources/customgpt_workflow.png"></p>
+
 ## Technical Methodologies
 
 <p align = "center"><img src = "resources/langchain.png"></p>
 
 1. <b>LangChain Framework</b>: The LangChain framework is a language processing framework that provides a set of tools and libraries for building and deploying natural language processing (NLP) applications. It offers a comprehensive range of functionalities such as text preprocessing, tokenization, language modeling, semantic analysis, and text generation. The LangChain framework leverages state-of-the-art techniques from the field of NLP, including deep learning models like transformers, to enable efficient and accurate language processing tasks.
 
+<p align = "center"><img src = "resources/faiss_logo.png"></p>
+
 2. <b>FAISS Framework</b>: FAISS (Facebook AI Similarity Search) is a library developed by Facebook AI Research that provides efficient and scalable solutions for similarity search and clustering tasks. FAISS is primarily focused on solving large-scale search problems in high-dimensional spaces, making it well-suited for applications involving computer vision, natural language processing, and recommendation systems. The framework offers various indexing structures and algorithms, such as product quantization and IVF (Inverted File System), to accelerate nearest neighbor search operations.
+
+<p align = "center"><img src = "resources/openai_logo.jpeg"></p>
 
 3. <b>GPT 3.5 Turbo Model</b>: GPT 3.5 Turbo is an advanced language model developed by OpenAI. It is based on the GPT (Generative Pre-trained Transformer) architecture and represents a significant advancement in natural language processing. GPT 3.5 Turbo exhibits impressive language generation capabilities and can be fine-tuned for specific tasks. The model has been trained on a massive corpus of text data and has a deep understanding of language patterns, enabling it to generate coherent and contextually relevant responses.
 
-## Working :
+
 
 ## Potential Use Cases:
 
