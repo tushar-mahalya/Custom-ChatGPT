@@ -7,6 +7,18 @@ By combining the wealth of knowledge shared within the Reddit data science commu
 #### Demo Video -
 <img src = "resources/CustomGPT_demo.gif" />
 
+* Collected comments from the top 1000 posts of the three leading data science communities on Reddit using the official Reddit API to access and retrieve the desired comments.
+
+* The collected comments were compiled to create a text corpus. This corpus consisted of approximately 12 million words, derived from around 223,000 comments. The large corpus provided a substantial dataset for analysis.
+
+* Exploratory data analysis techniques were employed to gain insights and understand the characteristics of the collected data. NLTK and spAcy were used for various analyses, enabling the identification of patterns and trends within the data.
+
+* Pre-trained Hugging Face models were leveraged to perform sentiment and emotion analysis on the collected comments during the exploratory data analysis phase. These models are designed to accurately classify sentiment and emotions expressed in text data, providing valuable insights into the overall sentiment and emotional tone of the comments.
+
+* Indexes of GPT-3 model embeddings were generated using the LangChain and FAISS framework. These indexes represented the contextual information captured by the GPT-3 model, enabling efficient retrieval of relevant embeddings based on user queries and prompts.
+
+* A simulation web application was developed using Streamlit. The web application provided a user-friendly interface for interacting with the chatbot, offering a seamless and intuitive chatbot experience.
+
 ## Getting started with the ChatBot
 
 The ChatBot is not currently deployed due to the cost associated with accessing the GPT model through my personal OpenAI API key. However, you can still run the ChatBot on your local machine by following the instructions below. Make sure you have enough credits In your OpenAI account for using the ChatBot.
