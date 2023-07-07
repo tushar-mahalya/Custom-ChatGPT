@@ -9,7 +9,7 @@ By combining the wealth of knowledge shared within the Reddit data science commu
 
 * Collected comments from the top 1000 posts of the three leading data science communities on Reddit using the official Reddit API to access and retrieve the desired comments.
 
-* The collected comments were compiled to create a text corpus. This corpus consisted of approximately 12 million words, derived from around 223,000 comments. The large corpus provided a substantial dataset for analysis.
+* The collected comments were compiled to create a text corpus. This corpus consisted of approximately 12 million words, derived from around 223k comments. The large corpus provided a substantial dataset for analysis.
 
 * Exploratory data analysis techniques were employed to gain insights and understand the characteristics of the collected data. NLTK and spAcy were used for various analyses, enabling the identification of patterns and trends within the data.
 
