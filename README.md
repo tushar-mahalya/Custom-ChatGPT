@@ -7,17 +7,22 @@ By combining the wealth of knowledge shared within the Reddit data science commu
 #### Demo Video -
 <img src = "resources/CustomGPT_demo.gif" />
 
-* Collected comments from the top 1000 posts of the three leading data science communities on Reddit using the official Reddit API to access and retrieve the desired comments.
+* Collected comments from the top 1000 posts of the three leading data science communities on Reddit using the official Reddit API to access and retrieve the desired comments. The sub-reddits used to extract the data are as follows -
+   *  Machine Learning - [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+   *  Artificial Intelligence - [r/artificial](https://www.reddit.com/r/Artificial/)
+   *  Data Science - [r/DataScience](https://www.reddit.com/r/DataScience/)
 
 * The collected comments were compiled to create a text corpus. This corpus consisted of approximately 12 million words, derived from around 223k comments. The large corpus provided a substantial dataset for analysis.
 
-* Exploratory data analysis techniques were employed to gain insights and understand the characteristics of the collected data. NLTK and spAcy were used for various analyses, enabling the identification of patterns and trends within the data.
+* Exploratory data analysis techniques were employed to gain insights and understand the characteristics of the collected data. [NLTK](https://www.nltk.org/) and [spAcy](https://spacy.io/) were used for various analyses, enabling the identification of patterns and trends within the data.
 
-* Pre-trained Hugging Face models were leveraged to perform sentiment and emotion analysis on the collected comments during the exploratory data analysis phase. These models are designed to accurately classify sentiment and emotions expressed in text data, providing valuable insights into the overall sentiment and emotional tone of the comments.
+* Pre-trained Hugging Face models were leveraged to perform sentiment and emotion analysis on the collected comments during the exploratory data analysis phase. These models are designed to accurately classify sentiment and emotions expressed in text data, providing valuable insights into the overall sentiment and emotional tone of the comments. The models used for sentiment and emotion analysis are as follows -
+   * roBERTa-base UPDATED (2022) - [cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
+   * Distilbert-base-uncased-emotion - [bhadresh-savani/distilbert-base-uncased-emotion](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) 
 
-* Indexes of GPT-3 model embeddings were generated using the LangChain and FAISS framework. These indexes represented the contextual information captured by the GPT-3 model, enabling efficient retrieval of relevant embeddings based on user queries and prompts.
+* Indexes of GPT-3.5-Turbo model embeddings were generated using the [Langchain](https://python.langchain.com/) and [FAISS](https://ai.facebook.com/tools/faiss/#:~:text=FAISS%20contains%20algorithms%20that%20search,and%20GPU%20support%20via%20CUDA.) framework. These indexes represented the contextual information captured by the GPT-3 model, enabling efficient retrieval of relevant embeddings based on user queries and prompts.
 
-* A simulation web application was developed using Streamlit. The web application provided a user-friendly interface for interacting with the chatbot, offering a seamless and intuitive chatbot experience.
+* A simulation web application was developed using [Streamlit](https://streamlit.io/). The web application provided a user-friendly interface for interacting with the chatbot, offering a seamless and intuitive chatbot experience.
 
 ## Getting started with the ChatBot
 
