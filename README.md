@@ -100,9 +100,15 @@ Please note that running the ChatBot locally requires a suitable environment wit
 
 6. <b>Decision Support Systems</b>: The Custom ChatGPT model can be integrated into decision support systems, assisting users in complex decision-making processes. By analyzing user inputs and providing relevant information and insights, it can help users make informed decisions across domains such as finance, healthcare, and business strategy.
 
+## Challenges
 
+* Creating FAISS indexes of the text corpus with OpenAI's gpt-3.5-turbo embeddings presents a major challenge due to the cost associated with using the OpenAI API key. Error-free and seamless processing is crucial, as any errors can result in the loss of created embeddings while still incurring charges. Proper text preprocessing using the right attributes of the langchain and faisa framework is necessary before initiating index creation.
 
-## <u>Hardware Specification</u>
+* Dealing with delayed response is a significant issue at the start, primarily because the utilization of St.load_cache() for pre-loading large index files in the cache memory is not being employed. By pre-loading these files, the chatbot can avoid repeatedly loading them into memory whenever prompted with a question.
+
+* Extracting limited domain knowledge is another challenge. Using all the comments from the aforementioned subreddits instead of just the top 1000 posts would result in a significantly larger text corpus, leading to extended index generation times, increased expenditure on embeddings, and the inclusion of unnecessary information that can affect performance. Extracting relevant chunks becomes a computationally demanding task.
+
+## Hardware Specification
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
 | Component | Specification |
 | --- | --- |
