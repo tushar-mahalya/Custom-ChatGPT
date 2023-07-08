@@ -135,4 +135,4 @@ If you would like to contribute to the project, you can follow the steps below:
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify and distribute the code as per the license terms
+This project is licensed under the [MIT License](https://opensource.org/license/mit/). You are free to use, modify and distribute the code as per the license terms
