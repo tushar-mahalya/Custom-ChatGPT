@@ -107,6 +107,8 @@ Please note that running the ChatBot locally requires a suitable environment wit
 * Dealing with delayed response is a significant issue at the start, primarily because the utilization of St.load_cache() for pre-loading large index files in the cache memory is not being employed. By pre-loading these files, the chatbot can avoid repeatedly loading them into memory whenever prompted with a question.
 
 * Extracting limited domain knowledge is another challenge. Using all the comments from the aforementioned subreddits instead of just the top 1000 posts would result in a significantly larger text corpus, leading to extended index generation times, increased expenditure on embeddings, and the inclusion of unnecessary information that can affect performance. Extracting relevant chunks becomes a computationally demanding task.
+  
+* Uploading and managing large FAISS index files poses a challenge due to size limitations on platforms like GitHub. Since the FAISS index files are approximately 250MB in size, which exceeds the file size limit for regular GitHub repositories, special measures need to be taken. The files may need to be pushed to a Git Large File Storage (LFS) server or an alternative file hosting service to ensure successful deployment and access to these large files.
 
 ## Hardware Specification
 For this project I've used [Amazon Sagemaker Studio Lab](https://studiolab.sagemaker.aws/) EC2-Instance which have the following specs - 
